@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NullLib</title>
+<style>
+  body {
+    background: #121212;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    margin-top: 50px;
+    text-align: center;
+  }
+  svg {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    max-width: 400px;
+    line-height: 1.4;
+  }
+  nav {
+    margin-top: 30px;
+  }
+  button {
+    background: #ffeb3b;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background: #f0d700;
+  }
+  footer {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <!-- Mutlu robot yüz svg -->
+  <svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Boxy Logo">
+    <rect x="40" y="40" width="100" height="100" rx="15" ry="15" fill="#222" />
+    <rect x="40" y="30" width="100" height="30" rx="10" ry="10" fill="#333" />
+    <ellipse cx="75" cy="85" rx="10" ry="7" fill="#ffeb3b" />
+    <ellipse cx="110" cy="85" rx="10" ry="7" fill="#ffeb3b" />
+    <circle cx="70" cy="83" r="3" fill="#fff" />
+    <circle cx="105" cy="83" r="3" fill="#fff" />
+    <path d="M65 115 Q90 140 115 115" stroke="#ffeb3b" stroke-width="6" fill="none" stroke-linecap="round" />
+  </svg>
+
+  <h1>Boxy</h1>
+  <p>Burdan libaryleri kopyala</p>
+</header>
+
+<nav>
+  <button onclick="alert('Kayıt sayfasına yönlendiriliyor...')">Kayıt Ol</button>
+  <button onclick="alert('Giriş sayfasına yönlendiriliyor...')">Giriş Yap</button>
+</nav>
+
+<footer>
+  © 2025 EnderNull Stüsyoları-Her hak amongus tarafından korunur
+</footer>
+
+</body>
+</html>
